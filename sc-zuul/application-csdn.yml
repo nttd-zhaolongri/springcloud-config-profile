@@ -5,7 +5,7 @@ spring:
     active: csdn
 zuul:
   routes:
-    sc-consumer: /consumer1/**
+    sc-consumer: /consumer11/**
     sc-provider: /provider/**
 #hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 80000
 hystrix:
